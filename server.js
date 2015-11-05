@@ -3,7 +3,6 @@
 var express = require('express');
 var app = express();
 var path = require('path');
-var clc = require('cli-color');
 var port = process.env.PORT || 3000;
 var time = new Date();
 
@@ -15,5 +14,5 @@ app.route('/')
 })
 
 app.listen(port, function () {
-	console.log(clc.cyanBright('server started on port ' + port + ' at ' + time));
+	console.log('server started on port ' + port + ' at ' + time);
 });
