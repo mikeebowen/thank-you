@@ -1,0 +1,8 @@
+**/node_modules/
+**/*.sw*
+**/db/**/*
+.env
+npm-debug.log
+db/
+build/
+mssql_db/
